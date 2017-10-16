@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Threading.Tasks;
+using System.Windows.Input;
+using tinda.Views.Create;
 using Xamarin.Forms;
 
 namespace tinda.Views.Details
@@ -19,9 +21,30 @@ namespace tinda.Views.Details
 		public static readonly BindableProperty BindableNavRightIcon = BindableProperty.Create("NavRightIcon", typeof(string), typeof(CustomersPage), "add");
 		public string NavRightIcon { get { return (string)GetValue(BindableNavRightIcon); } }
 
+        public static readonly BindableProperty BindableNavLeftIconCommand = BindableProperty.Create("NavLeftIconCommand", typeof(ICommand), typeof(CustomersPage), null);
+        public ICommand NavLeftIconCommand { get { return new Command(() => LeftIconClicked()); } }
+
+		public static readonly BindableProperty BindableNavRightIconCommand = BindableProperty.Create("NavRightIconCommand", typeof(ICommand), typeof(CustomersPage), null);
+		public ICommand NavRightIconCommand { get { return new Command(() => RightIconClicked()); } }
+
+        private void LeftIconClicked()
+        {
+            MainPage detail = (MainPage)this.Parent.Parent; 
+            detail.IsPresented = true;
+        }
+
+		private void RightIconClicked()
+		{
+            Navigation.PushModalAsync(new CreateCustomerPage(), true);
+		}
+
         public CustomersPage()
         {
             InitializeComponent();
+
+
         }
+
+
     }
 }

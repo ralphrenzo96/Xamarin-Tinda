@@ -15,7 +15,7 @@ namespace tinda.Views.Master
 			var masterPageItems = new List<MasterPageItem>();
 			masterPageItems.Add(new MasterPageItem
 			{
-				Title = "Contacts",
+				Title = "Customers",
 				IconSource = "icon.png",
 				TargetType = typeof(CustomersPage)
 			});

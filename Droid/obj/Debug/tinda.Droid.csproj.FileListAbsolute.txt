@@ -50,3 +50,9 @@
 /Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-hdpi/add.png
 /Users/aa04/Projects/tinda/Droid/obj/Debug/R.cs.flag
 /Users/aa04/Projects/tinda/Droid/obj/Debug/uploadflags.txt
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-hdpi/arrow_left.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xhdpi/arrow_left.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xxhdpi/arrow_left.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-hdpi/person_add.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xhdpi/person_add.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xxhdpi/person_add.png

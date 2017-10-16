@@ -16,5 +16,7 @@
 /Users/aa04/Projects/tinda/tinda/obj/Debug/tinda.Views.MainPage.xaml.g.cs
 /Users/aa04/Projects/tinda/tinda/obj/Debug/tinda.Views.Master.MasterPage.xaml.g.cs
 /Users/aa04/Projects/tinda/tinda/obj/Debug/tinda.Views.Details.CustomersPage.xaml.g.cs
+/Users/aa04/Projects/tinda/tinda/obj/Debug/tinda.Views.Create.CreateCustomerPage.xaml.g.cs
 /Users/aa04/Projects/tinda/tinda/obj/Debug/tinda.dll
 /Users/aa04/Projects/tinda/tinda/obj/Debug/tinda.pdb
+/Users/aa04/Projects/tinda/tinda/obj/Debug/tinda.csprojResolveAssemblyReference.cache
