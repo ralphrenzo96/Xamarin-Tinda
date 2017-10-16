@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using tinda.Views;
+using Xamarin.Forms;
 
 namespace tinda
 {
@@ -8,7 +9,7 @@ namespace tinda
         {
             InitializeComponent();
 
-            MainPage = new tindaPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

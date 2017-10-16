@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:master="clr-namespace:tinda.Views.Master;assembly=tinda"
+                  xmlns:detail="clr-namespace:tinda.Views.Details;assembly=tinda"
+                  x:Class="tinda.Views.MainPage">
+    <MasterDetailPage.Master>
+        <master:MasterPage x:Name="masterPage" />
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <detail:CustomersPage/>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
