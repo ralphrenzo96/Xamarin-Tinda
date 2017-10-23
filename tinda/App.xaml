@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="tinda.App" xmlns:utilities="clr-namespace:tinda.Utilities;assembly=tinda">
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="tinda.App" xmlns:utilities="clr-namespace:tinda.Utilities;assembly=tinda" xmlns:images="clr-namespace:tinda.Controls.Images;assembly=tinda">
 	<Application.Resources>
         <ResourceDictionary>
     		<ControlTemplate x:Key = "DefaultTemplate">
@@ -14,12 +14,12 @@
                         <ColumnDefinition Width = "2*"/>
                     </Grid.ColumnDefinitions>
                
-                    <Grid BackgroundColor = "{x:Static utilities:Constants.THEME_COLOR}" Grid.Row = "0" Grid.Column = "0" Grid.ColumnSpan = "3" Padding = "15,0" HorizontalOptions = "FillAndExpand" VerticalOptions = "EndAndExpand">
+                    <Grid BackgroundColor = "{x:Static utilities:Constants.THEME_COLOR}" Grid.Row = "0" Grid.Column = "0" Grid.ColumnSpan = "3" Padding = "15,5" HorizontalOptions = "FillAndExpand" VerticalOptions = "EndAndExpand">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width = "Auto"/>
                         </Grid.ColumnDefinitions>
-                        <StackLayout Grid.Row = "0" Grid.ColumnSpan = "3" Spacing = "0" VerticalOptions = "CenterAndExpand">
-                            <Image Source = "{TemplateBinding Parent.NavIcon}" HeightRequest = "18"/>
+                        <StackLayout Grid.Row = "0" Grid.ColumnSpan = "3" Spacing = "2" VerticalOptions = "CenterAndExpand">
+                            <Image Source = "{TemplateBinding Parent.NavIcon}" HeightRequest = "20"/>
                             <Label  Text = "{TemplateBinding Parent.NavTitle}" HorizontalOptions = "FillAndExpand" VerticalTextAlignment = "Center" HorizontalTextAlignment = "Center" FontSize = "12" TextColor = "White" FontAttributes = "Bold">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments = "x:String">
@@ -30,16 +30,16 @@
                             </Label>
                         </StackLayout>
                         <StackLayout Orientation = "Horizontal" Grid.Row = "0" Grid.ColumnSpan = "3" HorizontalOptions = "FillAndExpand">
-                            <Image Source = "{TemplateBinding Parent.NavLeftIcon}" WidthRequest = "20" VerticalOptions = "CenterAndExpand" HorizontalOptions = "StartAndExpand">
-                                <Image.GestureRecognizers>
+                            <images:LeftNavImage Source = "{TemplateBinding Parent.NavLeftIcon}" WidthRequest = "20" VerticalOptions = "CenterAndExpand" HorizontalOptions = "StartAndExpand">
+                                <images:LeftNavImage.GestureRecognizers>
                                     <TapGestureRecognizer Command="{TemplateBinding Parent.NavLeftIconCommand}"/>
-                                </Image.GestureRecognizers>
-                            </Image>
-                            <Image Source = "{TemplateBinding Parent.NavRightIcon}" WidthRequest = "20" VerticalOptions = "CenterAndExpand" HorizontalOptions = "End">
-                                <Image.GestureRecognizers>
+                                </images:LeftNavImage.GestureRecognizers>
+                            </images:LeftNavImage>
+                            <images:LeftNavImage Source = "{TemplateBinding Parent.NavRightIcon}" WidthRequest = "20" VerticalOptions = "CenterAndExpand" HorizontalOptions = "End">
+                                <images:LeftNavImage.GestureRecognizers>
                                     <TapGestureRecognizer Command="{TemplateBinding Parent.NavRightIconCommand}"/>
-                                </Image.GestureRecognizers>
-                            </Image>
+                                </images:LeftNavImage.GestureRecognizers>
+                            </images:LeftNavImage>
                         </StackLayout>
                     </Grid>
                     <ContentPresenter Grid.Row = "1" Grid.ColumnSpan = "3"/>

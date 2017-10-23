@@ -56,3 +56,6 @@
 /Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-hdpi/person_add.png
 /Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xhdpi/person_add.png
 /Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xxhdpi/person_add.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-hdpi/arrow_down.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xhdpi/arrow_down.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xxhdpi/arrow_down.png

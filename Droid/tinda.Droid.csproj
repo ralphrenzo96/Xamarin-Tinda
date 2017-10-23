@@ -123,6 +123,9 @@
     <AndroidResource Include="Resources\drawable-hdpi\arrow_left.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\arrow_left.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\arrow_left.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\arrow_down.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\arrow_down.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\arrow_down.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />

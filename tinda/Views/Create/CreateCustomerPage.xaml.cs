@@ -14,7 +14,7 @@ namespace tinda.Views.Create
 		public static readonly BindableProperty BindableNavIcon = BindableProperty.Create("NavIcon", typeof(string), typeof(CreateCustomerPage), "person_add");
 		public string NavIcon { get { return (string)GetValue(BindableNavIcon); } }
 
-        public static readonly BindableProperty BindableNavLeftIcon = BindableProperty.Create("NavLeftIcon", typeof(string), typeof(CreateCustomerPage), "arrow_left");
+        public static readonly BindableProperty BindableNavLeftIcon = BindableProperty.Create("NavLeftIcon", typeof(string), typeof(CreateCustomerPage), "arrow_down");
 		public string NavLeftIcon { get { return (string)GetValue(BindableNavLeftIcon); } }
 
 		public static readonly BindableProperty BindableNavLeftIconCommand = BindableProperty.Create("NavLeftIconCommand", typeof(ICommand), typeof(CreateCustomerPage), null);
@@ -23,7 +23,7 @@ namespace tinda.Views.Create
 		private void LeftIconClicked()
 		{
             //AnimatePage(0);
-            Navigation.PopModalAsync();
+            Navigation.PopModalAsync(true);
 		}
 
 		public CreateCustomerPage()
