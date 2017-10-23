@@ -1,0 +1,2 @@
+android.app.Application
+com.tinda.org.tinda

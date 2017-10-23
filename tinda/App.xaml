@@ -1,6 +1,50 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="tinda.App">
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="tinda.App" xmlns:utilities="clr-namespace:tinda.Utilities;assembly=tinda" xmlns:images="clr-namespace:tinda.Controls.Images;assembly=tinda">
 	<Application.Resources>
-		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+    		<ControlTemplate x:Key = "DefaultTemplate">
+                <Grid RowSpacing = "0"> 
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height = "{x:Static utilities:Constants.DEFAULT_TEMPLATE_HEIGHT}"/>
+                        <RowDefinition Height = "*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width = "8*"/>
+                        <ColumnDefinition Width = "2*"/>
+                    </Grid.ColumnDefinitions>
+               
+                    <Grid BackgroundColor = "{x:Static utilities:Constants.THEME_COLOR}" Grid.Row = "0" Grid.Column = "0" Grid.ColumnSpan = "3" Padding = "15,5" HorizontalOptions = "FillAndExpand" VerticalOptions = "EndAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width = "Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Row = "0" Grid.ColumnSpan = "3" Spacing = "2" VerticalOptions = "CenterAndExpand">
+                            <Image Source = "{TemplateBinding Parent.NavIcon}" HeightRequest = "20"/>
+                            <Label  Text = "{TemplateBinding Parent.NavTitle}" HorizontalOptions = "FillAndExpand" VerticalTextAlignment = "Center" HorizontalTextAlignment = "Center" FontSize = "12" TextColor = "White" FontAttributes = "Bold">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments = "x:String">
+                                        <OnPlatform.Android>AvenirLTStd-Roman.otf#Avenir LT Std</OnPlatform.Android>
+                                        <OnPlatform.iOS>Avenir</OnPlatform.iOS>
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                        </StackLayout>
+                        <StackLayout Orientation = "Horizontal" Grid.Row = "0" Grid.ColumnSpan = "3" HorizontalOptions = "FillAndExpand">
+                            <images:LeftNavImage Source = "{TemplateBinding Parent.NavLeftIcon}" WidthRequest = "20" VerticalOptions = "CenterAndExpand" HorizontalOptions = "StartAndExpand">
+                                <images:LeftNavImage.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{TemplateBinding Parent.NavLeftIconCommand}"/>
+                                </images:LeftNavImage.GestureRecognizers>
+                            </images:LeftNavImage>
+                            <images:LeftNavImage Source = "{TemplateBinding Parent.NavRightIcon}" WidthRequest = "20" VerticalOptions = "CenterAndExpand" HorizontalOptions = "End">
+                                <images:LeftNavImage.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{TemplateBinding Parent.NavRightIconCommand}"/>
+                                </images:LeftNavImage.GestureRecognizers>
+                            </images:LeftNavImage>
+                        </StackLayout>
+                    </Grid>
+                    <ContentPresenter Grid.Row = "1" Grid.ColumnSpan = "3"/>
+                </Grid>
+            </ControlTemplate>
+        </ResourceDictionary>
 	</Application.Resources>
 </Application>
