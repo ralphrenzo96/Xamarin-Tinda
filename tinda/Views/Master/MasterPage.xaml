@@ -2,10 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="tinda.Views.Master.MasterPage"
-             Padding="0,40,0,0"
              Icon="hamburger.png"
+             xmlns:utilities="clr-namespace:tinda.Utilities;assembly=tinda"
+             xmlns:images="clr-namespace:tinda.Controls.Images;assembly=tinda"
              Title="Personal Organiser">
     <StackLayout>
+        <StackLayout BackgroundColor = "{x:Static utilities:Constants.THEME_COLOR_DARK}" Padding="0,40,0,20" Spacing = "8">
+            <images:CircularImage Source = "https://imgmgr.banggood.com/images/upload/2015/03/SKU206479-10.jpg" HeightRequest = "90"/>
+
+            <StackLayout Spacing = "0">
+                <Label Text = "Ralph" FontSize = "16" FontAttributes = "Bold" TextColor = "White" HorizontalTextAlignment = "Center"/>
+                <Label Text = "Owner" FontSize = "10" TextColor = "White" HorizontalTextAlignment = "Center"/>
+            </StackLayout>
+        </StackLayout>
         <ListView x:Name="listView" SeparatorVisibility="None">
             <ListView.ItemTemplate>
                 <DataTemplate>

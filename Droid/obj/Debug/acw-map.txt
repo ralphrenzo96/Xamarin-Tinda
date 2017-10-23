@@ -6,6 +6,10 @@ tinda.Droid.Controls.ContentPageRenderer, tinda.Droid;md50d9c8f191db02e774d4895e
 tinda.Droid.Controls.ContentPageRenderer, tinda.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50d9c8f191db02e774d4895e94320004e.ContentPageRenderer
 tinda.Droid.Controls.ContentPageRenderer;md50d9c8f191db02e774d4895e94320004e.ContentPageRenderer
 tinda.droid.controls.ContentPageRenderer;md50d9c8f191db02e774d4895e94320004e.ContentPageRenderer
+tinda.Droid.Controls.CircularImageRenderer, tinda.Droid;md50d9c8f191db02e774d4895e94320004e.CircularImageRenderer
+tinda.Droid.Controls.CircularImageRenderer, tinda.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50d9c8f191db02e774d4895e94320004e.CircularImageRenderer
+tinda.Droid.Controls.CircularImageRenderer;md50d9c8f191db02e774d4895e94320004e.CircularImageRenderer
+tinda.droid.controls.CircularImageRenderer;md50d9c8f191db02e774d4895e94320004e.CircularImageRenderer
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor

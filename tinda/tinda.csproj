@@ -63,6 +63,8 @@
     </Compile>
     <Compile Include="Controls\Buttons\LeftButton.cs" />
     <Compile Include="Controls\Images\LeftNavImage.cs" />
+    <Compile Include="Controls\Images\CircularImage.cs" />
+    <Compile Include="Models\CustomerModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

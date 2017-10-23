@@ -8,6 +8,7 @@ namespace tinda.Controls.Images
         public LeftNavImage()
         {
             var tapGestureRecognizer = new TapGestureRecognizer();
+            tapGestureRecognizer.NumberOfTapsRequired = 1;
             tapGestureRecognizer.Tapped += OnClicked;
 
             this.GestureRecognizers.Add(tapGestureRecognizer);
@@ -17,7 +18,7 @@ namespace tinda.Controls.Images
 		{
             Image button = (Image)sender;
 
-			await button.RotateTo(360, 500);
+			await button.RotateTo(360, 1000);
 			button.Rotation = 0;
 		}
     }
