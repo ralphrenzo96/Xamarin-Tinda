@@ -59,3 +59,9 @@
 /Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xxhdpi/arrow_down.png
 /Users/aa04/Projects/tinda/Droid/obj/Debug/R.cs.flag
 /Users/aa04/Projects/tinda/Droid/obj/Debug/uploadflags.txt
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-hdpi/option_dots.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xhdpi/option_dots.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xxhdpi/option_dots.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xxhdpi/trashbin.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-hdpi/trashbin.png
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xhdpi/trashbin.png

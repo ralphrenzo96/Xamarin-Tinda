@@ -127,6 +127,13 @@
     <AndroidResource Include="Resources\drawable-hdpi\arrow_down.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\arrow_down.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\arrow_down.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\option_dots.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\option_dots.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\option_dots.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\trashbin.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\trashbin.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\trashbin.png" />
+    <AndroidResource Include="Resources\drawable\doge.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />

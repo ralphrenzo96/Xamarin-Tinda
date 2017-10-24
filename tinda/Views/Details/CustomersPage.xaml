@@ -12,8 +12,9 @@
                                     <Label Text="{Binding Name}" FontSize = "14" TextColor = "{x:Static utilities:Constants.THEME_COLOR_DARK}" FontAttributes = "Bold"/>
                                     <Label Text="{Binding Age, StringFormat = ', {0}'}"  FontSize = "14" TextColor = "Gray"/>
                                 </StackLayout>
-                                <Label Text="{Binding Address}" FontSize = "12" TextColor = "Silver"/>
+                                <Label Text="{Binding Address}" FontSize = "12" TextColor = "Gray"/>
                             </StackLayout>
+                            <Image Source = "option_dots" HeightRequest = "30"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

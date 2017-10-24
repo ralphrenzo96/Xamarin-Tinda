@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage NavigationPage.HasNavigationBar = "false" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="tinda.Views.Details.Customers.ViewCustomerPage" xmlns:utilities="clr-namespace:tinda.Utilities;assembly=tinda" BackgroundColor = "{x:Static utilities:Constants.THEME_COLOR_DARK}" xmlns:images="clr-namespace:tinda.Controls.Images;assembly=tinda">
+	<ContentView ControlTemplate = "{StaticResource DefaultTemplate}" BackgroundColor = "{x:Static utilities:Constants.THEME_COLOR}">
+        <StackLayout>
+            <images:CircularImage Source="{Binding Image}" Aspect = "AspectFit" HeightRequest = "120" WidthRequest = "120"/>
+            <Label Text = "{Binding Name}" TextColor = "White" FontSize = "20" HorizontalTextAlignment = "Center" FontAttributes = "Bold"/>
+        </StackLayout>
+	</ContentView>
+</ContentPage>

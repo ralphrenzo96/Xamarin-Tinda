@@ -1,17 +1,15 @@
 ﻿<Properties StartupConfiguration="{1A09013B-6804-4079-B424-87835A84B280}|Default">
-  <MonoDevelop.Ide.ItemProperties.tinda.Droid PreferredExecutionTarget="Android.TA02203GJE" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="tinda/Controls/Images/LeftNavImage.cs">
+  <MonoDevelop.Ide.ItemProperties.tinda.Droid PreferredExecutionTarget="Android.4dc7ca8f" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="tinda/Views/Details/Customers/ViewCustomerPage.xaml">
     <Files>
-      <File FileName="Droid/Controls/CircularImageRenderer.cs" Line="37" Column="38" />
-      <File FileName="tinda/Views/Details/CustomersPage.xaml" Line="8" Column="50" />
-      <File FileName="tinda/Views/Details/CustomersPage.xaml.cs" Line="51" Column="102" />
-      <File FileName="tinda/Models/CustomerModel.cs" Line="5" Column="6" />
-      <File FileName="tinda/Views/Master/MasterPage.xaml" Line="10" Column="40" />
-      <File FileName="tinda/Controls/Images/CircularImage.cs" Line="9" Column="10" />
-      <File FileName="tinda/Controls/Images/LeftNavImage.cs" Line="11" Column="13" />
+      <File FileName="tinda/Views/Details/CustomersPage.xaml.cs" Line="59" Column="144" />
+      <File FileName="tinda/Views/Details/Customers/ViewCustomerPage.xaml" Line="3" Column="139" />
+      <File FileName="tinda/Views/Details/Customers/ViewCustomerPage.xaml.cs" Line="16" Column="154" />
+      <File FileName="tinda/Views/Master/MasterPage.xaml" Line="11" Column="49" />
+      <File FileName="tinda/Views/Details/CustomersPage.xaml" Line="25" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

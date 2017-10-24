@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using tinda.Models;
 using tinda.Views.Create;
+using tinda.Views.Details.Customers;
 using Xamarin.Forms;
 
 namespace tinda.Views.Details
@@ -44,20 +45,18 @@ namespace tinda.Views.Details
             InitializeComponent();
 
             var customers = new List<CustomerModel>();
-            customers.Add(new CustomerModel { Name = "Green Cross", Age = 18, Address = "Mandaue City",  Image = "http://img.timeinc.net/time/daily/2010/1011/poy_nomination_agassi.jpg"});
-			customers.Add(new CustomerModel { Name = "One Two", Age = 20, Address = "Cebu City", Image = "http://img.timeinc.net/time/daily/2010/1011/poy_nomination_agassi.jpg" });
-			customers.Add(new CustomerModel { Name = "Three Four", Age = 19, Address = "Liloan", Image = "http://img.timeinc.net/time/daily/2010/1011/poy_nomination_agassi.jpg" });
-			customers.Add(new CustomerModel { Name = "Five Six", Age = 30, Address = "Talisay", Image = "http://img.timeinc.net/time/daily/2010/1011/poy_nomination_agassi.jpg" });
-			customers.Add(new CustomerModel { Name = "Seven Eight", Age = 32, Address = "Lapu-Lapu", Image = "http://img.timeinc.net/time/daily/2010/1011/poy_nomination_agassi.jpg" });
-			customers.Add(new CustomerModel { Name = "Nine Ten", Age = 44, Address = "Mactan", Image = "http://img.timeinc.net/time/daily/2010/1011/poy_nomination_agassi.jpg" });
-			customers.Add(new CustomerModel { Name = "Eleven Twelve", Age = 52, Address = "Consolacion", Image = "http://img.timeinc.net/time/daily/2010/1011/poy_nomination_agassi.jpg" });
-			customers.Add(new CustomerModel { Name = "Two One", Age = 51, Address = "Foodland", Image = "http://img.timeinc.net/time/daily/2010/1011/poy_nomination_agassi.jpg" });
-			customers.Add(new CustomerModel { Name = "Four Three", Age = 70, Address = "Banilad", Image = "http://img.timeinc.net/time/daily/2010/1011/poy_nomination_agassi.jpg" });
-
-
+            customers.Add(new CustomerModel { Name = "Green Cross", Age = 18, Address = "Mandaue City",  Image = "doge"});
+			customers.Add(new CustomerModel { Name = "One Two", Age = 20, Address = "Cebu City", Image = "doge" });
+			customers.Add(new CustomerModel { Name = "Three Four", Age = 19, Address = "Liloan", Image = "doge" });
+			customers.Add(new CustomerModel { Name = "Five Six", Age = 30, Address = "Talisay", Image = "doge" });
+			customers.Add(new CustomerModel { Name = "Seven Eight", Age = 32, Address = "Lapu-Lapu", Image = "doge" });
+			customers.Add(new CustomerModel { Name = "Nine Ten", Age = 44, Address = "Mactan", Image = "doge" });
+			customers.Add(new CustomerModel { Name = "Eleven Twelve", Age = 52, Address = "Consolacion", Image = "doge" });
+			customers.Add(new CustomerModel { Name = "Two One", Age = 51, Address = "Foodland", Image = "doge" });
+			customers.Add(new CustomerModel { Name = "Four Three", Age = 70, Address = "Banilad", Image = "doge" });
 
 			listView.ItemsSource = customers;
-
+            listView.ItemTapped += async (sender, e) => await Navigation.PushModalAsync(new ViewCustomerPage { BindingContext = e.Item }, true);
         }
 
 
