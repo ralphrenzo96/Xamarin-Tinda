@@ -19,7 +19,16 @@ namespace tinda.Views.Master
 				IconSource = "icon.png",
 				TargetType = typeof(CustomersPage)
 			});
+
+			masterPageItems.Add(new MasterPageItem
+			{
+				Title = "Customers",
+				IconSource = "icon.png",
+				TargetType = typeof(CustomersPage)
+			});
+
 			listView.ItemsSource = masterPageItems;
+
         }
     }
 }

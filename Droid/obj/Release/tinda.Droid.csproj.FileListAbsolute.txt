@@ -3,6 +3,11 @@
 /Users/aa04/Projects/tinda/Droid/bin/Release/com.tinda.org.tinda.apk
 /Users/aa04/Projects/tinda/Droid/bin/Release/com.tinda.org.tinda-Signed.apk
 /Users/aa04/Projects/tinda/Droid/bin/Release/FormsViewGroup.dll
+/Users/aa04/Projects/tinda/Droid/bin/Release/Syncfusion.Core.XForms.dll
+/Users/aa04/Projects/tinda/Droid/bin/Release/Syncfusion.DataSource.Portable.dll
+/Users/aa04/Projects/tinda/Droid/bin/Release/Syncfusion.GridCommon.Portable.dll
+/Users/aa04/Projects/tinda/Droid/bin/Release/Syncfusion.SfListView.XForms.Android.dll
+/Users/aa04/Projects/tinda/Droid/bin/Release/Syncfusion.SfListView.XForms.dll
 /Users/aa04/Projects/tinda/Droid/bin/Release/tinda.dll
 /Users/aa04/Projects/tinda/Droid/bin/Release/Xamarin.Android.Support.Animated.Vector.Drawable.dll
 /Users/aa04/Projects/tinda/Droid/bin/Release/Xamarin.Android.Support.Design.dll
@@ -16,6 +21,10 @@
 /Users/aa04/Projects/tinda/Droid/bin/Release/Xamarin.Forms.Platform.Android.dll
 /Users/aa04/Projects/tinda/Droid/bin/Release/Xamarin.Forms.Platform.dll
 /Users/aa04/Projects/tinda/Droid/bin/Release/Xamarin.Forms.Xaml.dll
+/Users/aa04/Projects/tinda/Droid/bin/Release/Syncfusion.Core.XForms.xml
+/Users/aa04/Projects/tinda/Droid/bin/Release/Syncfusion.DataSource.Portable.xml
+/Users/aa04/Projects/tinda/Droid/bin/Release/Syncfusion.GridCommon.Portable.xml
+/Users/aa04/Projects/tinda/Droid/bin/Release/Syncfusion.SfListView.XForms.xml
 /Users/aa04/Projects/tinda/Droid/bin/Release/FormsViewGroup.pdb
 /Users/aa04/Projects/tinda/Droid/bin/Release/FormsViewGroup.dll.mdb
 /Users/aa04/Projects/tinda/Droid/bin/Release/Xamarin.Forms.Core.pdb
@@ -62,6 +71,6 @@
 /Users/aa04/Projects/tinda/Droid/obj/Release/res/drawable-xxhdpi/trashbin.png
 /Users/aa04/Projects/tinda/Droid/obj/Release/res/drawable-hdpi/trashbin.png
 /Users/aa04/Projects/tinda/Droid/obj/Release/res/drawable-xhdpi/trashbin.png
+/Users/aa04/Projects/tinda/Droid/obj/Release/res/drawable/doge.jpg
 /Users/aa04/Projects/tinda/Droid/obj/Release/R.cs.flag
 /Users/aa04/Projects/tinda/Droid/obj/Release/uploadflags.txt
-/Users/aa04/Projects/tinda/Droid/obj/Release/res/drawable/doge.jpg

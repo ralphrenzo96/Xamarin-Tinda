@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using tinda.Utilities;
 using Xamarin.Forms;
 
 namespace tinda.Views.Create
@@ -22,20 +23,18 @@ namespace tinda.Views.Create
 
 		private void LeftIconClicked()
 		{
-            //AnimatePage(0);
             Navigation.PopModalAsync(true);
 		}
 
 		public CreateCustomerPage()
         {
             InitializeComponent();
-
-            //AnimatePage(1);
         }
 
-		//async Task AnimatePage(int opacity)
-		//{
-  //          await contentViewMain.FadeTo(opacity, 500);
-		//}
+        void Customer_Add(Object sender, EventArgs e)
+        {
+            DummyDatas.AddCustomer(entryName.Text, Convert.ToInt32(entryAge.Text), entryAddress.Text, entryImage.Text);
+			Navigation.PopModalAsync(true);
+        }
     }
 }

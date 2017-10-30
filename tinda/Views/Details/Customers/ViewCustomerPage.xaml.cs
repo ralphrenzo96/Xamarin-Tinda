@@ -16,13 +16,20 @@ namespace tinda.Views.Details.Customers
 		public static readonly BindableProperty BindableNavRightIcon = BindableProperty.Create("NavRightIcon", typeof(string), typeof(CustomersPage), "trashbin");
 		public string NavRightIcon { get { return (string)GetValue(BindableNavRightIcon); } }
 
+		public static readonly BindableProperty BindableNavRightIconCommand = BindableProperty.Create("NavRightIconCommand", typeof(ICommand), typeof(ViewCustomerPage), null);
+		public ICommand NavRightIconCommand { get { return new Command(() => RightIconClicked()); } }
+
+		private void RightIconClicked()
+		{
+            DisplayAlert(null, "Delete " + labelName.Text + "?", "Yes", "No");
+		}
+
 		private void LeftIconClicked()
 		{
-			//AnimatePage(0);
-            Navigation.PopModalAsync(true);
-		} 
+			Navigation.PopModalAsync(true);
+		}
 
-        public ViewCustomerPage()
+		public ViewCustomerPage()
         {
             InitializeComponent();
         }

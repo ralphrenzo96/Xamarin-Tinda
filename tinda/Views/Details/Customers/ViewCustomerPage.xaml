@@ -3,7 +3,7 @@
 	<ContentView ControlTemplate = "{StaticResource DefaultTemplate}" BackgroundColor = "{x:Static utilities:Constants.THEME_COLOR}">
         <StackLayout>
             <images:CircularImage Source="{Binding Image}" Aspect = "AspectFit" HeightRequest = "120" WidthRequest = "120"/>
-            <Label Text = "{Binding Name}" TextColor = "White" FontSize = "20" HorizontalTextAlignment = "Center" FontAttributes = "Bold"/>
+            <Label Text = "{Binding Name}" TextColor = "White" FontSize = "20" HorizontalTextAlignment = "Center" FontAttributes = "Bold" x:Name = "labelName"/>
         </StackLayout>
 	</ContentView>
 </ContentPage>

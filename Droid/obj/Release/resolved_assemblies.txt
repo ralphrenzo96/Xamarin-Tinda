@@ -1,5 +1,10 @@
 /Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/tinda.Droid.dll
 /Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/FormsViewGroup.dll
+/Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/Syncfusion.Core.XForms.dll
+/Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/Syncfusion.DataSource.Portable.dll
+/Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/Syncfusion.GridCommon.Portable.dll
+/Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/Syncfusion.SfListView.XForms.Android.dll
+/Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/Syncfusion.SfListView.XForms.dll
 /Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/Xamarin.Android.Support.Animated.Vector.Drawable.dll
 /Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/Xamarin.Android.Support.Design.dll
 /Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/Xamarin.Android.Support.v4.dll
@@ -19,6 +24,7 @@
 /Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/System.Xml.dll
 /Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/mscorlib.dll
 /Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/tinda.dll
+/Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/Microsoft.CSharp.dll
 /Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/System.Net.Http.dll
 /Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/System.Runtime.Serialization.dll
 /Users/aa04/Projects/tinda/Droid/obj/Release/android/assets/System.ServiceModel.Internals.dll

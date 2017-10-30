@@ -100,6 +100,11 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "tinda.Droid.dll" comes first in this list. */
 		"tinda.Droid.dll",
 		"FormsViewGroup.dll",
+		"Syncfusion.Core.XForms.dll",
+		"Syncfusion.DataSource.Portable.dll",
+		"Syncfusion.GridCommon.Portable.dll",
+		"Syncfusion.SfListView.XForms.Android.dll",
+		"Syncfusion.SfListView.XForms.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",

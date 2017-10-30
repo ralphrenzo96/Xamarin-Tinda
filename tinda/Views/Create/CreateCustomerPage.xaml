@@ -2,7 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="tinda.Views.Create.CreateCustomerPage" xmlns:utilities="clr-namespace:tinda.Utilities;assembly=tinda">
 	<ContentView ControlTemplate = "{StaticResource DefaultTemplate}" Opacity = "1" x:Name = "contentViewMain">
         <StackLayout Margin = "0,20,0,0">
+            <Entry Placeholder = "Name" x:Name = "entryName"/>
+            <Entry Placeholder = "Age" x:Name = "entryAge"/>
+            <Entry Placeholder = "Address" x:Name = "entryAddress"/>
+            <Entry Placeholder = "Image" x:Name = "entryImage"/>
 
+            <Button Text = "Add Customer" Clicked = "Customer_Add"/>
         </StackLayout>
     </ContentView>
 </ContentPage>

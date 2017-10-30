@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="tinda.Views.Details.CustomersPage" NavigationPage.HasNavigationBar = "false" xmlns:images="clr-namespace:tinda.Controls.Images;assembly=tinda" xmlns:utilities="clr-namespace:tinda.Utilities;assembly=tinda">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="tinda.Views.Details.CustomersPage" NavigationPage.HasNavigationBar = "false" xmlns:images="clr-namespace:tinda.Controls.Images;assembly=tinda" xmlns:utilities="clr-namespace:tinda.Utilities;assembly=tinda" xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms">
 	<ContentView ControlTemplate = "{StaticResource DefaultTemplate}">
-        <ListView x:Name="listView" HasUnevenRows = "true" SeparatorVisibility="Default" BackgroundColor = "White" SeparatorColor = "#ecf0f1">
-            <ListView.ItemTemplate>
+        <ListView x:Name="listView" HasUnevenRows = "true">
+           <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Padding="8,8" Spacing = "5" Orientation = "Horizontal">

@@ -65,3 +65,13 @@
 /Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xxhdpi/trashbin.png
 /Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-hdpi/trashbin.png
 /Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable-xhdpi/trashbin.png
+/Users/aa04/Projects/tinda/Droid/bin/Debug/Syncfusion.Core.XForms.dll
+/Users/aa04/Projects/tinda/Droid/bin/Debug/Syncfusion.DataSource.Portable.dll
+/Users/aa04/Projects/tinda/Droid/bin/Debug/Syncfusion.GridCommon.Portable.dll
+/Users/aa04/Projects/tinda/Droid/bin/Debug/Syncfusion.SfListView.XForms.Android.dll
+/Users/aa04/Projects/tinda/Droid/bin/Debug/Syncfusion.SfListView.XForms.dll
+/Users/aa04/Projects/tinda/Droid/bin/Debug/Syncfusion.Core.XForms.xml
+/Users/aa04/Projects/tinda/Droid/bin/Debug/Syncfusion.DataSource.Portable.xml
+/Users/aa04/Projects/tinda/Droid/bin/Debug/Syncfusion.GridCommon.Portable.xml
+/Users/aa04/Projects/tinda/Droid/bin/Debug/Syncfusion.SfListView.XForms.xml
+/Users/aa04/Projects/tinda/Droid/obj/Debug/res/drawable/doge.jpg
