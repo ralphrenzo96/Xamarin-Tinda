@@ -1,18 +1,17 @@
 ﻿<Properties StartupConfiguration="{1A09013B-6804-4079-B424-87835A84B280}|Default">
-  <MonoDevelop.Ide.ItemProperties.tinda.Droid PreferredExecutionTarget="Android.Nexus 5 (Lollipop)" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Controls/ContentPageRenderer.cs">
+  <MonoDevelop.Ide.ItemProperties.tinda.Droid PreferredExecutionTarget="Android.TA02203GJE" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="tinda/Views/Master/MasterPage.xaml.cs">
     <Files>
-      <File FileName="tinda/Views/Create/CreateCustomerPage.xaml.cs" Line="17" Column="165" />
-      <File FileName="tinda/App.xaml" Line="17" Column="160" />
-      <File FileName="tinda/Views/Create/CreateCustomerPage.xaml" Line="9" Column="1" />
-      <File FileName="tinda/Views/Details/CustomersPage.xaml.cs" Line="43" Column="1" />
-      <File FileName="tinda/Views/Details/CustomersPage.xaml" Line="7" Column="1" />
-      <File FileName="tinda/Utilities/Constants.cs" Line="8" Column="65" />
-      <File FileName="tinda/Controls/Buttons/LeftButton.cs" Line="13" Column="20" />
+      <File FileName="tinda/Views/Details/CustomersPage.xaml.cs" Line="53" Column="13" />
+      <File FileName="tinda/Views/Details/Customers/ViewCustomerPage.xaml" Line="6" Column="158" />
+      <File FileName="tinda/Views/Details/Customers/ViewCustomerPage.xaml.cs" Line="24" Column="64" />
+      <File FileName="tinda/Views/Details/CustomersPage.xaml" Line="4" Column="58" />
+      <File FileName="tinda/Utilities/DummyDatas.cs" Line="9" Column="43" />
+      <File FileName="tinda/Views/Create/CreateCustomerPage.xaml" Line="14" Column="1" />
+      <File FileName="tinda/Views/Create/CreateCustomerPage.xaml.cs" Line="37" Column="35" />
+      <File FileName="Droid/MainActivity.cs" Line="24" Column="1" />
       <File FileName="tinda/obj/Debug/tinda.Views.MainPage.xaml.g.cs" Line="22" Column="1" />
-      <File FileName="tinda/Controls/Images/LeftNavImage.cs" Line="10" Column="4" />
-      <File FileName="Droid/Resources/values/styles.xml" Line="15" Column="40" />
-      <File FileName="Droid/Controls/ContentPageRenderer.cs" Line="1" Column="1" />
+      <File FileName="tinda/Views/Master/MasterPage.xaml.cs" Line="24" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

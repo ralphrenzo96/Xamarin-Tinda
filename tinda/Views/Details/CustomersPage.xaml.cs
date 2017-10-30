@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using tinda.Models;
+using tinda.Utilities;
 using tinda.Views.Create;
+using tinda.Views.Details.Customers;
 using Xamarin.Forms;
 
 namespace tinda.Views.Details
@@ -42,7 +45,12 @@ namespace tinda.Views.Details
         {
             InitializeComponent();
 
+            DummyDatas.AddCustomer("Green Cross", 18, "Mandaue City", "doge");
+            DummyDatas.AddCustomer("One Two", 22, "Cebu City", "doge");
+            DummyDatas.AddCustomer("Red Cross", 31, "Talisay City", "doge");
 
+            listView.ItemsSource = DummyDatas.customers;
+            listView.ItemTapped += async (sender, e) => await Navigation.PushModalAsync(new ViewCustomerPage { BindingContext = e.Item }, true);
         }
 
 
